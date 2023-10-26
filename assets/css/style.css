@@ -736,9 +736,7 @@ font-weight: 700;
     font-size: 1rem;
 }
 
-.no-arrow {
-    -moz-appearance: textfield;
-  }
+
   .no-arrow::-webkit-inner-spin-button {
     display: none;
   }
