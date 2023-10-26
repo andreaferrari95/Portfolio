@@ -793,6 +793,24 @@ footer a {
     border-radius: 5rem;
 }
 
+/*css success*/
+
+.success {
+    min-height: 90vh;
+    height: 100%;
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: .5rem;
+}
+
+.success-content {
+    max-width: 600px;
+    margin-top: 1.5rem;
+    font-size: 2.5rem;
+}
 
 
 
@@ -841,6 +859,10 @@ footer a {
 
     .contact {
         margin-top: 3rem;
+    }
+
+    .success-content {
+        font-size: 2rem;
     }
 }
 
@@ -919,6 +941,9 @@ footer a {
 
     footer p {
         font-size: 1rem;
+    }
+    .success-content{
+        font-size: 1.5rem;
     }
 }
 
