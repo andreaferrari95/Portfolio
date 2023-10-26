@@ -813,6 +813,12 @@ footer a {
 }
 
 
+/*---page-ppf*/
+
+.page-ppf {
+    background: var(--bg-color);
+}
+
 
 
 
