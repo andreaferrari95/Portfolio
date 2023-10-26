@@ -1,5 +1,5 @@
 let menuLi = document.querySelectorAll("header ul li a");
-let section = document.querySelectorAll("section");
+let section = document.querySelector("section");
 
 function activeMenu(){
     let len = section.length;
