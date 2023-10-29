@@ -708,6 +708,11 @@ footer a {
 .ppf-last {
     padding-bottom: 2rem;
 }
+.page-ppf span {
+    color: var(--text-color);
+    font-weight: 700;
+    font-size: var(--normal-font);
+}
 
 /* ----- Responsiveness-----*/
 
