@@ -423,9 +423,7 @@ font-weight: 700;
     height: 100%;
     position: absolute;
     left: 0;
-    background: var(--hover-color);
     border-radius: 25px;
-    box-shadow: var(--neon-box-shadow);
 }
 .skill-bar .bar .html {
     width: 65%;
@@ -485,9 +483,7 @@ font-weight: 700;
     height: 100%;
     position: absolute;
     left: 0;
-    background: var(--hover-color);
     border-radius: 25px;
-    box-shadow: var(--neon-box-shadow);
 }
 .professional-bar .bar .team-work {
     width: 80%;
