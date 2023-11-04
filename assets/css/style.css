@@ -732,10 +732,10 @@ footer a {
         --h2-font: 3rem;
     }
     .home-content {
-        margin-top: 5rem;
+        margin-top: 1rem;
     }
     .home-image {
-        margin-top: 4rem;
+        margin-top: 1rem;
     }
     .social-media-icons {
         margin-top: 2rem;
@@ -789,6 +789,9 @@ footer a {
     .home {
         grid-template-columns: 1fr;
     }
+    .home-content{
+        margin-top: 3rem;
+    }
     .home-image {
         margin-bottom: 5rem;
     }
@@ -826,6 +829,9 @@ footer a {
     }
     .about .img-about img {
         max-width: 90%;
+    }
+    .section-background {
+        flex-direction: column-reverse;
     }
     .portfolio-gallery {
         grid-template-columns: 1fr;
