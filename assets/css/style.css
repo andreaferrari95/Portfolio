@@ -243,7 +243,7 @@ font-weight: 700;
 .liquid-shape:nth-child(2) {
     filter: blur(50px);
 }
-/* About Section CSS -----------------*/
+/* About Section CSS ------------------------------------------------------------------------------------------------------------------------*/
 .about {
     display: flex;
     justify-content: center;
@@ -321,7 +321,7 @@ font-weight: 700;
     font-size: .6rem;
     font-weight: 600;
 }
-/* Background Section ---------*/
+/* Background Section ------------------------------------------------------------------------------------------*/
 .main-text {
     width: 100%;
     text-align: center;
@@ -385,7 +385,7 @@ font-weight: 700;
     color: #bdbdbd;
     line-height: 1.6;
 }
-/* Skills Left Section ---------*/
+/* Skills Left Section ------------------------------------------------------------------------------------------*/
 .skills {
     background: var(--secon-bg-color);
 }
@@ -455,7 +455,7 @@ font-weight: 700;
     box-shadow: var(--neon-box-shadow-ltr);
     animation: lightroom 4s;
 }
-/* Skills Right Section ---------*/
+/* Skills Right Section ------------------------------------------------------------------------------------------*/
 .professional-bar{
     margin-bottom: 2.3rem;
 }
@@ -516,7 +516,7 @@ font-weight: 700;
     animation: creativity 3s;
 }
 
-/*Portfolio Section*/
+/*Portfolio Section-------------------------------------------------------------------------------------------------------*/
 
 .portfolio-gallery {
     display: grid;
@@ -594,7 +594,7 @@ font-weight: 700;
     color: var(--secon-bg-color);
 }
 
-/* CSS Contacts ------*/
+/* CSS Contacts ---------------------------------------------------------------------------------------*/
 
 
 .contact {
@@ -637,7 +637,7 @@ font-weight: 700;
     margin: 0;
   }
 
-/*---Footer---*/
+/*---Footer----------------------------------------------------------------------------------------------*/
 
 footer {
     padding: 1.5rem;
@@ -664,7 +664,7 @@ footer a {
     color: var(--secon-bg-color);
 }
 
-/*------Scrollbar----*/
+/*------Scrollbar-------------------------------------------------------------------------------------*/
 
 ::-webkit-scrollbar {
     height: 0;
@@ -677,7 +677,7 @@ footer a {
     background: var(--hover-color);
     border-radius: 5rem;
 }
-/*css success*/
+/*css success-----------------------------------------------------------------------------------------------------*/
 
 .success {
     min-height: 90vh;
@@ -695,7 +695,7 @@ footer a {
     font-size: 2.5rem;
 }
 
-/*---page-ppf*/
+/*---page-ppf---------------------------------------------------------------------------------------------------------*/
 
 .page-ppf {
     background: var(--bg-color);
@@ -710,7 +710,7 @@ footer a {
     font-size: var(--normal-font);
 }
 
-/* ----- Responsiveness-----*/
+/* ----- Responsiveness---------------------------------------------------------------------------------------*/
 
 @media (max-width:992px){
     header {
@@ -838,7 +838,7 @@ footer a {
     }
 }
 
-/* Animation Keyframes-------------*/
+/* Animation Keyframes-----------------------------------------------------------------------------------------------*/
 
 /* Left panel*/
 
@@ -883,7 +883,7 @@ footer a {
     }
 }
 
-/*right panel*/
+/*right panel----------------------------------------------------------------------------------------------*/
 
 @keyframes team-work {
     0% {
