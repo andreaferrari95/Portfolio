@@ -709,6 +709,106 @@ footer a {
     font-size: var(--normal-font);
 }
 
+/*-----------CV page-------*/
+
+.home-content-cv {
+    max-width: 600px;
+    margin-top: 3rem;
+}
+.home-content-cv h1 {
+font-size: var(--big-font);
+font-weight: 700;
+}
+.change-text-cv {
+    font-weight: 600;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+/* CV section */
+
+.cv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 2em;
+    background: var(--secon-bg-color);
+}
+.bg-dark {
+    background: var(--bg-color);
+    flex-direction: row-reverse;
+}
+.cv .img-cv {
+    text-align: center;
+    position: relative;
+}
+.cv .img-cv img {
+    max-width: 400px;
+    height: auto;
+    border-radius: 10%;
+    box-shadow: 0 0 0.8rem #00C896;
+}
+.cv-content span {
+    color: #f5f5f5;
+    font-size: .8rem;
+    font-weight: 200;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.cv-content h2 {
+    color: var(--hover-color);
+    font-weight: 700;
+    font-size: var(--normal-font);
+}
+.cv-content h3 {
+    font-weight: 600;
+    font-size: 1.5rem;
+    margin-bottom: .2rem;
+}
+.cv-content p {
+    color: #f5f5f5;
+    font-weight: 300;
+    margin-bottom: 1.5rem;
+    
+}
+.info-about1,
+.info-about2,
+.info-about3 {
+    background: var(--bg-color);
+    font-size: .5rem;
+    position: absolute;
+    padding: 10px;
+    width: 90px;
+    height: 90px;
+    border-radius: 69%;
+    display: block;
+    box-shadow: var(--neon-box-shadow);
+    border: 1px solid var(--hover-color);
+    outline: 2px solid var(--bg-color);
+    margin-top: 1rem;
+}
+.info-about3 {
+    left: 75%;
+}
+.info-about2 {
+    left: 38%;
+}
+.info-about1 span {
+    color: var(--hover-color);
+    font-size: .7rem;
+    font-weight: 600;
+}
+.info-about2 span {
+    color: var(--hover-color);
+    font-size: 1rem;
+    font-weight: 600;
+}
+.info-about3 span {
+    color: var(--hover-color);
+    font-size: .6rem;
+    font-weight: 600;
+}
+
 /* ----- Responsiveness-----*/
 
 @media (max-width:992px){
