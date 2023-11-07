@@ -605,6 +605,9 @@ font-weight: 700;
     margin: 1rem auto;
     margin-bottom: 1rem;
 }
+.contact-main h1 {
+    font-size: 2rem;
+}
 .contact form input,
 .contact form textarea {
     width: 100%;
@@ -768,43 +771,6 @@ font-weight: 700;
         font-weight: 500;
         text-decoration: underline;
     }
-.info-about1,
-.info-about2,
-.info-about3 {
-    background: var(--bg-color);
-    font-size: .5rem;
-    position: absolute;
-    padding: 10px;
-    width: 90px;
-    height: 90px;
-    border-radius: 69%;
-    display: block;
-    box-shadow: var(--neon-box-shadow);
-    border: 1px solid var(--hover-color);
-    outline: 2px solid var(--bg-color);
-    margin-top: 1rem;
-}
-.info-about3 {
-    left: 75%;
-}
-.info-about2 {
-    left: 38%;
-}
-.info-about1 span {
-    color: var(--hover-color);
-    font-size: .7rem;
-    font-weight: 600;
-}
-.info-about2 span {
-    color: var(--hover-color);
-    font-size: 1rem;
-    font-weight: 600;
-}
-.info-about3 span {
-    color: var(--hover-color);
-    font-size: .6rem;
-    font-weight: 600;
-}
 .cv-content strong {
     color: var(--hover-color);
     font-size: 1.5rem;
