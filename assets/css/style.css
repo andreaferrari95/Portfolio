@@ -443,7 +443,7 @@ font-weight: 700;
     animation: css 2s;
 }
 .skill-bar .bar .javascript {
-    width: 50%;
+    width: 60%;
     background: var(--js-bar-color);
     box-shadow: var(--neon-box-shadow-js);
     animation: javascript 2s;
@@ -942,7 +942,7 @@ font-weight: 700;
         width: 0%;
     }
     100% {
-        width: 50%;
+        width: 60%;
     }
 }
 @keyframes premierepro {
