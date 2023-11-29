@@ -431,19 +431,19 @@ font-weight: 700;
     border-radius: 25px;
 }
 .skill-bar .bar .html {
-    width: 65%;
+    width: 80%;
     background: var(--html-bar-color);
     box-shadow: var(--neon-box-shadow-html);
     animation: html 2.5s;
 }
 .skill-bar .bar .css {
-    width: 55%;
+    width: 70%;
     background: var(--css-bar-color);
     box-shadow: var(--neon-box-shadow-css);
     animation: css 2s;
 }
 .skill-bar .bar .javascript {
-    width: 20%;
+    width: 50%;
     background: var(--js-bar-color);
     box-shadow: var(--neon-box-shadow-js);
     animation: javascript 2s;
@@ -926,7 +926,7 @@ font-weight: 700;
         width: 0%;
     }
     100% {
-        width: 65%;
+        width: 80%;
     }
 }
 @keyframes css {
@@ -934,7 +934,7 @@ font-weight: 700;
         width: 0%;
     }
     100% {
-        width: 55%;
+        width: 70%;
     }
 }
 @keyframes javascript {
@@ -942,7 +942,7 @@ font-weight: 700;
         width: 0%;
     }
     100% {
-        width: 20%;
+        width: 50%;
     }
 }
 @keyframes premierepro {
