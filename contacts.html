@@ -1,65 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content="Portfolio of Andrea Ferrari, contact me to discuss a project or for a chat">
-    <meta name="keywords" content="portfolio, full-stack, developer, contacts">
-    <meta name="author" content="Andrea Ferrari">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="description"
+      content="Portfolio of Andrea Ferrari, contact me to discuss a project or for a chat"
+    />
+    <meta
+      name="keywords"
+      content="portfolio, full-stack, developer, contacts"
+    />
+    <meta name="author" content="Andrea Ferrari" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contacts</title>
-    <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico">
-    <meta property="og:title" content="Contact Andrea Ferrari Full-Stack Developer" />
+    <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+    <meta
+      property="og:title"
+      content="Contact Andrea Ferrari Full-Stack Developer"
+    />
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://andreaferrari95.github.io/Portfolio/contacts.html"/>
-    <meta property="og:description" content="Contact me to enquiry - Andrea Ferrari Full-Stack Developer" />
-    <meta property="og:image" content="https://andreaferrari95.github.io/Portfolio/assets/img/project-portfolio.png"/>
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-</head>
-<body>
+    <meta
+      property="og:url"
+      content="https://andreaferrari95.github.io/Portfolio/contacts.html"
+    />
+    <meta
+      property="og:description"
+      content="Contact me to enquiry - Andrea Ferrari Full-Stack Developer"
+    />
+    <meta
+      property="og:image"
+      content="https://andreaferrari95.github.io/Portfolio/assets/img/project-portfolio.png"
+    />
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <header>
-        <div class="logo"><a href="index.html"><span>A</span>ndrea.</a></div>
-        <ul class="navlist">
-            <li><a href="contacts.html">Contacts</a></li>
-            <li><a href="index.html#about">About</a></li>
-            <li><a href="index.html#background">Background</a></li>
-            <li><a href="index.html#skills">Skills</a></li>
-            <li><a href="index.html#portfolio">Portfolio</a></li>
-            <li><a href="index.html">Home</a></li>
-        </ul>
-    <div id="menu-icon" class="bx bx-menu"></div>
+      <div class="logo">
+        <a href="index.html"><span>A</span>ndrea.</a>
+      </div>
+      <ul class="navlist">
+        <li><a href="contacts.html">Contacts</a></li>
+        <li><a href="index.html#about">About</a></li>
+        <li><a href="index.html#background">Background</a></li>
+        <li><a href="index.html#skills">Skills</a></li>
+        <li><a href="index.html#portfolio">Portfolio</a></li>
+        <li><a href="index.html">Home</a></li>
+      </ul>
+      <div id="menu-icon" class="bx bx-menu"></div>
     </header>
 
     <section id="contact" class="contact">
-        <div class="main-text contact-main">
-            <span>Contacts</span>
-            <h1>Get In Touch</h1>
+      <div class="main-text contact-main">
+        <span>Contacts</span>
+        <h1>Get In Touch</h1>
+      </div>
+      <form
+        action="https://formsubmit.co/d67534f3c25805bf87dd37665cfa48b2"
+        method="POST"
+        autocomplete="on"
+      >
+        <!--  Honeypot-->
+        <input type="text" name="_honey" style="display: none" />
+        <!--Disable captcha-->
+        <input type="hidden" name="_captcha" value="false" />
+        <!--link to success page-->
+        <input
+          type="hidden"
+          name="_next"
+          value="https://andreaferrari95.github.io/Portfolio/success.html"
+        />
+        <input
+          type="text"
+          id="fullName"
+          name="Full&nbsp;Name"
+          placeholder="Your Full Name"
+          required
+        />
+        <input
+          type="email"
+          id="email_id"
+          name="Email"
+          placeholder="Your Email"
+          required
+        />
+        <input
+          type="text"
+          id="address"
+          name="Address"
+          placeholder="Your Address"
+        />
+        <input
+          type="number"
+          id="phone"
+          name="Phone"
+          class="no-arrow"
+          placeholder="Phone Number"
+        />
+        <textarea
+          name="Message"
+          id="message"
+          cols="30"
+          rows="10"
+          placeholder="Your Message"
+          required
+        ></textarea>
+
+        <div class="btn-box form-btn">
+          <button type="submit" class="btn">Send Message</button>
         </div>
-        <form action="https://formsubmit.co/d67534f3c25805bf87dd37665cfa48b2" method="POST" autocomplete="on">    
-            <!--  Honeypot-->
-            <input type="text" name="_honey" style="display: none;">      
-            <!--Disable captcha-->
-            <input type="hidden" name="_captcha" value="false"> 
-            <!--link to success page-->
-            <input type="hidden" name="_next" value="https://andreaferrari95.github.io/Portfolio/success.html">
-            <input type="text" id="fullName" name="Full&nbsp;Name" placeholder="Your Full Name" required>
-            <input type="email" id="email_id" name="Email" placeholder="Your Email" required>
-            <input type="text" id="address" name="Address" placeholder="Your Address">
-            <input type="number" id="phone" name="Phone" class="no-arrow" placeholder="Phone Number">
-            <textarea name="Message" id="message" cols="30" rows="10" placeholder="Your Message" required></textarea>
-    
-            <div class="btn-box form-btn">
-                <button type="submit" class="btn">Send Message</button>
-            </div>
-        </form>
+      </form>
     </section>
 
-    <footer>
-        <p>Copyright &copy; Andrea Ferrari 2023</p>
-        <a href="#contact"><i class='bx bx-up-arrow-alt' ></i></a>
-     </footer>
+    <footer class="footer contact-footer">
+      <p>Copyright &copy; Andrea Ferrari 2023</p>
+      <a href="#contact"><i class="bx bx-up-arrow-alt"></i></a>
+    </footer>
 
     <script src="assets/js/script.js" type="text/JavaScript"></script>
-</body>
+  </body>
 </html>
